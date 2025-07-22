@@ -6,9 +6,10 @@
 #include <TFT_eSPI.h>
 #include <XPT2046_Touchscreen.h>
 
-const char* ssid = "Bubuchacha";
-const char* password = "umbalaxibua";
-const char* Gemini_Token = "AIzaSyDLW9bZZ1Pj3GKMfYUy7WxzPHrqevGMa14";
+// Network and Gemini API
+const char* ssid = "REPLACE_WITH_YOUR_SSID";
+const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+const char* Gemini_Token = "REPLACE_WITH_YOUR_GEMINI_PROJECT_API_KEY";
 const char* Gemini_Max_Tokens = "100";
 String res = "";
 
